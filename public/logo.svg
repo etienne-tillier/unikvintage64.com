@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 48">
+  <defs>
+    <linearGradient id="logoGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7D5C35"/>
+      <stop offset="50%" stop-color="#A0784A"/>
+      <stop offset="100%" stop-color="#C8974A"/>
+    </linearGradient>
+  </defs>
+  <!-- Icon: simple U dans un rectangle arrondi -->
+  <rect x="2" y="2" width="44" height="44" rx="6" fill="#2E2118" stroke="url(#logoGold)" stroke-width="1.5"/>
+  <text x="24" y="34" text-anchor="middle" font-family="Georgia, serif" font-weight="700" font-size="28" fill="url(#logoGold)">U</text>
+  <!-- Text -->
+  <text x="56" y="26" font-family="Georgia, serif" font-weight="700" font-size="16" fill="#2E2118">Unikvintage</text>
+  <text x="56" y="40" font-family="Georgia, serif" font-size="12" fill="#A0784A">64</text>
+</svg>
