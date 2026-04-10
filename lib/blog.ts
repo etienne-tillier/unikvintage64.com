@@ -16,6 +16,10 @@ type TranslationEntry = {
     h1?: string;
     seo_title?: string;
     meta_description?: string;
+    body_md?: string;
+    excerpt?: string;
+    focus_keyword?: string;
+    faqs?: unknown;
     status?: string;
 };
 type TranslationMap = Record<string, TranslationEntry>;
@@ -113,6 +117,10 @@ function parseTranslations(translations: unknown): TranslationMap {
                 h1: typeof source.h1 === "string" ? source.h1 : undefined,
                 seo_title: typeof source.seo_title === "string" ? source.seo_title : undefined,
                 meta_description: typeof source.meta_description === "string" ? source.meta_description : undefined,
+                body_md: typeof source.body_md === "string" ? source.body_md : undefined,
+                excerpt: typeof source.excerpt === "string" ? source.excerpt : undefined,
+                focus_keyword: typeof source.focus_keyword === "string" ? source.focus_keyword : undefined,
+                faqs: source.faqs,
                 status: typeof source.status === "string" ? source.status : undefined,
             };
         }
